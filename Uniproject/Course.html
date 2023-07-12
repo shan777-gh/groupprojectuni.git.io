@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Course</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #course-col1 ul li
+        {
+            list-style: none;
+            padding: 10Px;
+        }
+         #course-col2 ul li
+        {
+            list-style: none;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="Finalproject.html"><img src="projectimages/logo1.png" height="70px"></a>
+            <div class="nav-Links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Gallery.html">GALLERY</a></li>
+                    <li><a href="Blogs.php">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    <li><a href="Applyonline.html">APPLY ONLINE</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="sign up.html">Sign Up</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="course-col" id="course-col1">
+                <h3>Intermediate</h3>
+                <ul>
+                    <a href="intermediates.php">
+                        <li>Fs.c pre-Engneering</li>
+                    
+                        <li>Fs.c pre-Medical</li>
+                  
+                    
+                        <li>ICS</li>
+                 
+                   
+                        <li>I.Com</li>
+                    </a>
+                </ul>
+
+            </div>
+            <div class="course-col" id="course-col2">
+                <h3>Degree & Programme</h3>
+                <ul>Department Of Educational Sciences
+                    <a href="degree.php">
+                        <li> B.Ed (Hons.) 4 Year</li>
+                        <li>B.Ed (Bridging)</li>
+                        <li>BS Health and Physical Education </li>
+                    </a>
+                </br></br>
+            
+                </ul>
+                <ul>Department Of Computer Science
+                    <a href="degree.php">
+                        <li>
+                            BS Computer Science (BSCS)
+
+                        </li>
+                        <li> BS Artificial Intelligence (BS AI)</li>
+                    </a>
+                   </br></br>
+                </ul>
+                <ul>Department Of International Relations
+                    <a href="degree.php">
+                        <li>BS International Relations</li>
+                        <li>BS International Relations</li>
+                    </a>
+               
+                </ul> 
+             
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section class="facilites">
+        <h1>Our Facilities</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="facilites-col">
+                <img src="projectimages/library.png">
+                <h3>World Class Libraray </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia rerum,
+                    dolorum debitis explicabo magnam iust</p>
+            </div>
+            <div class="facilites-col">
+                <img src="projectimages/basketball.png">
+                <h3>Largest Play Ground </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia rerum,
+                    dolorum debitis explicabo magnam iust</p>
+            </div>
+            <div class="facilites-col">
+                <img src="projectimages/cafeteria.png">
+                <h3>Tasty and Healthy Food </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia rerum,
+                    dolorum debitis explicabo magnam iust</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, laboriosam ducimus.
+            Quasi rerum <br>dolorum nemo modi numquam vel iure. Fuga unde perferendis
+        </p>
+        <div class="icon">
+            <a href="https://www.facebook.com/NUMLRawalpindi"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/NUMLRawalpindi"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/NUMLRawalpindi"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+        </div>
+        <p>Made BY <i class="fa fa-heart-o"></i> Group 5 </p>
+
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

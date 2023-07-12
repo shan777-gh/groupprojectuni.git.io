@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>HOME</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    #cour
+    {
+        text-decoration: none;
+         
+    }
+    #cour:hover
+    {
+        text-decoration: underline red;
+        transition: 1s;
+    }
+    #cour:visited{
+        color: brown;
+    }
+    #cour:active{
+	background-color:black;
+	color:white;
+	}
+</style>
+
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="Finalproject.html"><img src="projectimages/logo1.png"  height="70px"></a>
+            <div class="nav-Links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Gallery.html">GALLERY</a></li>
+                    <li><a href="Blogs.php">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    <li><a href="Applyonline.html">APPLY ONLINE</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="sign up.html">Sign Up</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1> Numl University</h1>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
+                rem natus eius doloribus placeat!<br> Eius ab culpa praesentium nisi, beatae fugit.
+            </p>
+            <a href="" class="btn">Visit Us To Know More</a>
+
+        </div>
+
+    </section>
+    <section class="course">
+        <a href="Course.html" id="cour"><h1>Courses We Offer</h1></a>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p></p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p></p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="projectimages/london.png">
+                <div class="layer">
+                    <h3>RAWALPINDI</h3>
+                </div>
+
+            </div>
+            <div class="campus-col">
+                <img src="projectimages/newyork.png">
+                <div class="layer">
+                    <h3>ISLAMABAD</h3>
+                </div>
+
+            </div>
+            <div class="campus-col">
+                <img src="projectimages/washington.png">
+                <div class="layer">
+                    <h3>KARACHI</h3>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="facilites">
+        <h1>Our Facilities</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="facilites-col">
+                <img src="projectimages/library.png">
+                <h3>World Class Libraray </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia rerum,
+                    dolorum debitis explicabo magnam iust</p>
+            </div>
+            <div class="facilites-col">
+                <img src="projectimages/basketball.png">
+                <h3>Largest Play Ground </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia rerum,
+                    dolorum debitis explicabo magnam iust</p>
+            </div>
+            <div class="facilites-col">
+                <img src="projectimages/cafeteria.png">
+                <h3>Tasty and Healthy Food </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia rerum,
+                    dolorum debitis explicabo magnam iust</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h1>Enroll For Our various Online Courses <br> Anywhere From the World</h1>
+        <a href="Contact.html" class="btn">Conatct Us</a>
+
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, laboriosam ducimus.
+            Quasi rerum <br>dolorum nemo modi numquam vel iure. Fuga unde perferendis
+        </p>
+        <div class="icon">
+            <a href="https://www.facebook.com/NUMLRawalpindi"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/NUMLRawalpindi"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/NUMLRawalpindi"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+        </div>
+        <p>Made BY <i class="fa fa-heart-o"></i> Group 5 </p>
+
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

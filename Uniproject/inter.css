@@ -1,0 +1,81 @@
+.course-col1 {
+    height: 900px;
+    background: linear-gradient(45deg, rgb(15, 90, 202), gray);
+
+
+    font-family: sans-serif;
+
+
+}
+
+
+.course-col1 h1 {
+    font-family: sans-serif;
+    color: cornflowerblue;
+    opacity: 0.6;
+    animation: anim 3s infinite alternate-reverse;
+}
+
+@keyframes anim {
+    0% {
+        color: cornflowerblue;
+    }
+
+    20% {
+        color: crimson;
+    }
+
+    40% {
+        color: cadetblue;
+    }
+
+    60% {
+        color: darkslategray;
+    }
+
+    80% {
+        color: cyan;
+    }
+}
+
+.course-col1 label {
+
+    color: rgb(199, 42, 42);
+
+    padding: 5px;
+    background-color: rgb(148, 137, 137);
+    border-radius: 10px;
+}
+
+.course-col1 label input {
+    padding: 5px;
+    transition: 0.5;
+    color: brown;
+
+}
+
+.course-col1 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(71, 68, 68);
+    color: aliceblue
+}
+.course-col1 form
+{
+    padding: 10px;
+}
+.apply {
+   
+    
+    padding: 20px;
+    border-color: rgb(12, 10, 10);
+    border-bottom: 2px solid rgb(26, 25, 25);
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin-left: 50px;
+  
+}
+.course-col1 table
+{
+    border: 2px solid black;
+}
